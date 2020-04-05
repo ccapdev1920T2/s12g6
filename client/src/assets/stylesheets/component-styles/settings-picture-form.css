@@ -1,0 +1,75 @@
+#dpView {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#dpMainWrapper {
+  height: 100%;
+}
+
+.dp-main-img {
+  height: calc(90px * 5 - 18px);
+  width: 20rem;
+  object-fit: cover;
+  margin-bottom: 18px;
+}
+
+#imageUploadInput {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#uploadedImg {
+  display: flex;
+  flex-direction: column;
+}
+
+#dpOther {
+  display: flex;
+  flex-direction: column;
+}
+
+#imageIcon {
+  max-height: 72px;
+  max-width: 72px;
+  margin: 0 0 18px 18px;
+}
+
+#addNewRow {
+  max-height: 72px;
+  max-width: 72px;
+  margin: 18px;
+}
+
+#addNew {
+  margin: 0 0 18px 18px;
+}
+
+#buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@media(min-width: 768px) {
+  .dp-main-img {
+    height: calc(90px * 5 - 18px);
+    width: 20rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  #imageIconRow {
+    height: 72px;
+    width: 72px
+  }
+}
+
+/* @media (min-width: 1440px) {
+  .dp-main-img {
+    width: 30rem;
+    object-fit: cover;
+    margin-bottom: 18px;
+  }
+} */

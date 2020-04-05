@@ -1,0 +1,43 @@
+@-webkit-keyframes highlight-button {
+    0% { opacity: 40%; }
+    100% { opacity: 100%; }
+}
+
+@-moz-keyframes highlight-button {
+    0% { opacity: 40%; }
+    100% { opacity: 100%; }
+}
+
+@keyframes highlight-button {
+    0% { opacity: 40%; }
+    100% { opacity: 100%; }
+}
+
+@-webkit-keyframes unhighlight-button {
+    0% { opacity: 100%; }
+    100% { opacity: 40%; }
+}
+
+@-moz-keyframes unhighlight-button {
+    0% { opacity: 100%; }
+    100% { opacity: 40%; }
+}
+
+@keyframes unhighlight-button {
+    0% { opacity: 100%; }
+    100% { opacity: 40%; }
+}
+
+.highlight {
+    -webkit-animation: highlight-button 0.25s;
+    -moz-animation: highlight-button 0.25s;
+    animation: highlight-button 0.25s;
+    opacity: 100%;
+}
+
+.unhighlight {
+    -webkit-animation: unhighlight-button 0.25s;
+    -moz-animation: unhighlight-button 0.25s;
+    animation: unhighlight-button 0.25s;
+    opacity: 40%;
+}

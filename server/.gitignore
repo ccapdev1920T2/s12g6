@@ -1,0 +1,6 @@
+.env
+node_modules
+images
+private.key
+public.key.pub
+test.js

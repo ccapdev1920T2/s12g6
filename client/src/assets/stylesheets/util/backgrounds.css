@@ -1,0 +1,31 @@
+.bg-gradient-main {
+  background: linear-gradient(to right, #E83A63, #FF819E);
+}
+
+.bg-like-btn {
+  background: linear-gradient(to right, #4DE1E8, #76FBCB);
+}
+
+.bg-light-main {
+  background-color: #FAFCFF;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-light-pink {
+  background-color: #FFEBF0;
+}
+
+.bg-trans {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.bg-muted {
+  background-color: #A5B8CD;
+}
+
+.bg-hot-pink {
+  background-color: #E83A63;
+}

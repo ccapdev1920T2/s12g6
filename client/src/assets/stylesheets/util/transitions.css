@@ -1,0 +1,39 @@
+/* Grow */
+.grow {
+  transition: all .2s ease-in-out; 
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+/* Fade */
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .3s;
+}
+
+/* Slide */
+.slide-enter {
+  transform: translateX(20);
+}
+
+.slide-enter-active 
+.slide-leave-active {
+  transition: all 0.5s ease;
+}
+
+.slide-enter-to {
+  transform: translateX(0);
+}
+

@@ -1,0 +1,56 @@
+
+.h-65 {
+  height: 65%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-65-vw {
+  width: 65vw;
+}
+
+.h-70-vh {
+  height: 70vh;
+}
+
+.h-75-vh {
+  height: 75vh;
+}
+
+.h-60 {
+  height: 60vh;
+}
+
+.h-90 {
+  height: 90vh;
+}
+
+
+.rounded-12 {
+  border-radius: 12px;
+}
+
+.icon-top-25 { 
+  top: 25%;
+  right: 12px;
+}
+
+.icon-top-left {
+  top: 12px;
+  left: 12px;
+}
+
+.icon-top-right {
+  top: 12px;
+  right: 12px;
+}
+
+.t-12 {
+  top: 12px;
+}
+
+.r-12 {
+  right: 12px;
+}

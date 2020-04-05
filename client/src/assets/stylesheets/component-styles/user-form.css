@@ -1,0 +1,67 @@
+/* User Form Stylesheet */
+#OKuserDetails {
+  position: relative;
+  width: 100%;
+}
+
+#OKformContent {
+  height: auto;
+  width: 100%;
+}
+
+#OKnavTop {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+#OKbars {
+  position: absolute;
+  left: 0;
+}
+
+#OKclose {
+  position: absolute;
+  right: 0
+}
+
+.OKinline-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.OKnormal-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem;
+}
+
+.OKinline-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem; 
+}
+
+/* Medium */
+@media (min-width: 640px) {
+  .OKinline-form {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  #OKnavTop {
+    position: absolute;
+    right: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  #OKuserDetails {
+    width: 75%;
+    margin: 0.75rem;
+    padding: 0 5rem;
+  }
+}

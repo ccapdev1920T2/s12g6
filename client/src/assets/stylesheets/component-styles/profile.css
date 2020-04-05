@@ -1,0 +1,140 @@
+/* Profile Component scoped stylesheet */
+#profileContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+}
+
+#detailSection {
+  position: relative;
+  width: 100%;
+  height: 35%;
+  display: flex; 
+  z-index: 2;
+  overflow: scroll;
+}
+
+#detailContent {
+  height: auto;
+  width: 100%;
+}
+
+#imageSection {
+  height: 65%;
+  width: 100%;
+  position: relative;
+}
+
+#imageContent {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+}
+
+#imgMain {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#backButtonTop {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 10;
+  display: none;
+}
+
+#backButtonBelow {
+  position: absolute;
+  cursor: pointer;
+}
+
+.match-unmatch-button {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 0.25rem;
+  display: flex;
+  cursor: pointer;
+}
+
+#heartIcon {
+  font-size: 18px;
+}
+
+#timesIcon {
+  font-size: 32px;
+}
+
+#matchUnmatch {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profileLeft {
+  position: absolute;
+  z-index: 1001;
+  top: 50%;
+  left: 2%;
+}
+
+#profileRight {
+  position: absolute;
+  z-index: 1020;
+  top: 50%;
+  right: 2%
+}
+
+#reportUser {
+  position: absolute;
+  z-index: 3;
+  bottom: 12px;
+  right: 12px;
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  #profileContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #detailSection { 
+    height: 100%;
+    width: 50%;
+  }
+
+  #detailContent {
+    height: 70%;
+    width: 75%;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #imageSection {
+    height: 100%;
+    width: 50%;
+    display: flex;
+  }
+
+  #imageContent {
+    height: 100%;
+  }
+
+  #backButtonTop {
+    display: flex;
+  }
+
+  #backButtonBelow {
+    display: none
+  }
+}

@@ -1,0 +1,1 @@
+mongo Anispark --eval "db.dropDatabase()"

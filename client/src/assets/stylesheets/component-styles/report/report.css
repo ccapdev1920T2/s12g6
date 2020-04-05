@@ -1,0 +1,90 @@
+.report-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.choice-modal {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 85vw;
+}
+
+.report-modal {
+  height: 80vh;
+  width: 90vw;
+  max-width: 25rem;
+  max-height: 36.75rem;
+}
+
+#optionsContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#option {
+  position: relative;
+  height: 50%;
+  width: 100%;
+}
+
+#optionImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#type {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+}
+
+#back {
+  font-size: 24px;
+}
+
+@media (min-width: 600px) {
+  #option {
+    height: 50%;
+    width: 25%
+  }
+}
+
+@media (min-width: 768px) {
+  .choice-modal {
+    height: 75vh;
+    width: 85vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  #option {
+    height: 80%;
+    width: 15%
+  }
+}
+
+@media (min-width: 1440px) {
+  .choice-modal {
+    height: 65vh;
+    width: 65vw;
+  }
+
+  .report-modal {
+    height: 80vh;
+  }
+}

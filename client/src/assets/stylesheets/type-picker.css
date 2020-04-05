@@ -1,0 +1,22 @@
+.type-picker input { 
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.type-picker label:not(:first-child) {
+	background-color: #E1EFFF;
+	color: #545454;
+	font-size: 1rem;
+	line-height: 1.75;
+  margin: 12px 12px 12px 0;   
+  padding: 8px 16px;
+  border-radius: 8px;
+	transition: all 0.1s ease-in-out;
+}
+
+.type-picker input:checked + label {
+  background-color: #E83A63;
+  color: #FFFFFF;
+	box-shadow: none;
+}

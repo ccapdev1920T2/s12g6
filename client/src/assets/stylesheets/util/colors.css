@@ -1,0 +1,23 @@
+.text-muted {
+  color: #A5B8CD;
+}
+
+.text-hot-pink {
+  color: #E83A63;
+}
+
+.text-dark-grey {
+  color: #424242;
+}
+
+.text-light-grey {
+  color: #BABABA;
+}
+
+.text-link {
+  color: #4DE1E8;
+}
+
+.border-aqua {
+  border: 3px solid #4DE1E8;
+}

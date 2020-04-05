@@ -1,0 +1,90 @@
+.form-flow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+
+.checkbox {
+    margin: 0 12px 0 0;
+}
+
+.form-horizontal {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}   
+
+.form-horizontal div {
+    flex-grow: 1;
+}
+
+#fname { 
+    margin-right: 12px;
+}
+
+#genders {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="radio"]:first-of-type {
+    margin: 0 12px 0 0;
+}
+
+.type-picker {
+    display: flex;
+    flex-direction: row;
+}
+
+.type-picker input { 
+    position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.type-picker label:not(:first-child) {
+	background-color: #E1EFFF;
+	color: #545454;
+	font-size: 1rem;
+	line-height: 1.75;
+    margin: 12px 12px 12px 0;   
+    padding: 8px 16px;
+    border-radius: 8px;
+	transition: all 0.1s ease-in-out;
+}
+
+.type-picker input:checked + label {
+    background-color: #E83A63;
+    color: #FFFFFF;
+	box-shadow: none;
+}
+
+#image-upload-child {
+    margin: 0 8.25px;
+}
+
+#image-upload-child > input {
+    display: none;
+}
+
+#dp-view img {
+    object-fit: cover;
+}
+
+#dp-main {
+    height: 28.125em;
+    width: 22.5em;
+    /* width: calc(100% - (8 * 8.25px) / 8vh); */
+}
+
+#dp-other img {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    margin: 8.25px;
+}
+
+#add-new {
+    display: none;
+}

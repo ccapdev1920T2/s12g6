@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    /* display: none; */
+    z-index: 1;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-image: linear-gradient(to right, #E83A63C0, #FF819EC0);
+    width: 100vw;
+    height: 100vh;
+}
+
+.confirm-container {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 1.5rem;  
+    width: 350px;
+    min-width: 300px;
+    background: #F2F8FF;
+    box-shadow: 0px 4px 10px rgba(165, 184, 205, 0.25);
+    border-radius: 8px;
+}
+
+.otp-input-first, .otp-input-middle, .otp-input-last {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 32px;
+}
+
+.otp-input-first {
+    margin-right: 5px;
+}
+
+.otp-input-middle {
+    margin: 0 5px;
+}
+
+.otp-input-last {
+    margin-left: 5px;
+}
+
+.btn {
+    width: 100%;
+    height: 54px;
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, #E83a63, #ff819e);
+    border: 0px;
+    border-radius: 6px;
+    color: #ffffff;
+}

@@ -1,0 +1,64 @@
+  /* Size */
+.size-enter {}
+.size-enter-to {}
+
+/* Resize */
+.resize-enter,
+.resize-enter-to,
+.resize-leave,
+.resize-leave-to {}
+
+@media (min-width: 768px) {
+   /* Size */
+  .size-enter {
+    height: 75vh;
+    width: 85vw;
+  }
+
+  .size-enter-to {
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    height: 36.25rem;
+    width: 25rem;
+  }
+
+  /* Resize */
+  .resize-enter {
+    height: 36.25rem;
+    width: 25rem;
+  }
+
+  .resize-enter-to {
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    height: 75vh;
+    width: 85vw;
+  }
+
+  .resize-leave {
+    height: 36.25rem;
+    width: 25rem;
+  }
+
+  .resize-leave-to {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .size-enter {
+    height: 75vh;
+    width: 85vw;
+  }
+
+  .size-enter-to {
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    height: 36.25rem;
+    width: 25rem;
+  }
+
+  .size-leave {
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    height: 0;
+    width: 0;
+  }
+}
